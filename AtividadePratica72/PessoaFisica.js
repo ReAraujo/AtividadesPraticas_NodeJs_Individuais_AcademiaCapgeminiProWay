@@ -16,8 +16,5 @@ export class PessoaFisica extends Pessoa{
     set cpf(cpf){
         this.#cpf = cpf;
     }
-
-
-
-    
+   
 }
