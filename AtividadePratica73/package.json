@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Renata",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "pg": "^8.7.1",
+    "sequelize": "^6.12.0-alpha.1"
+  }
 }
