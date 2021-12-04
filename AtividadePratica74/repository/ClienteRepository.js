@@ -22,15 +22,15 @@ class ClienteRepository {
 
     // Método Update (atualizar):
     async update(model){
-        return await ClienteTable.update(model,{
-            where:{id:model.id}
+        return await ClienteTable.update(model,{ // ao alterar, é preciso informar o objeto (model)
+            where:{id:model.id} 
         });        
     }
 
     // Método Delete (deletar)
     async delete(id){
-        return await ClienteTable.destroy({
-            where:{id:parseInt(id)}
+        return await ClienteTable.destroy({ // ao deletar, não é preciso informar o objeto 
+            where:{id:parseInt(id)} // informando o número do ID do item a ser deletado
         });
     }
 }

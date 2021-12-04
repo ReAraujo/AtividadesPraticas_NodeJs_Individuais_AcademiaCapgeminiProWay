@@ -12,14 +12,27 @@ const cliente1 = new Cliente();
 
 // Adicionando os dados ao objeto:
 cliente1.id = 2;
-cliente1.nomeCompleto = "NomeCompleto do Cliente2";
-cliente1.dataNascimento = "01/01/1901";
-cliente1.cpf = "001.002.003-04";
-cliente1.endereco = "Rua Endereço da Cliente1";
+cliente1.nomeCompleto = "NomeCompleto do Cliente4";
+cliente1.dataNascimento = "01/01/1904";
+cliente1.cpf = "001.002.003-08";
+cliente1.endereco = "Rua Endereço da Cliente4";
 
 const repository = new ClienteRepository();
 
-const salvar = await repository.create(cliente1);
+// Utilizando os métodos de CRUD:
+
+// Criando/inserindo um novo dado no DB:
+await repository.create(cliente1);
+
+// Listando dados do DB:
+const listar = await repository.read();
+console.log(listar);
+
+// Alterando um item no DB:
+await repository.update(cliente1);
+
+// Deletando um item no DB:
+const deletar = repository.delete(1);
 
 // Impressão dos dados:
 console.log(`ID: ${cliente1.id} | Nome completo: ${cliente1.nomeCompleto} | Data de Nascimento: ${cliente1.dataNascimento} | CPF: ${cliente1.cpf} | Endereço: ${cliente1.endereco}`);
