@@ -32,7 +32,7 @@ console.log(listar);
 await repository.update(cliente1);
 
 // Deletando um item no DB:
-const deletar = repository.delete(1);
+await repository.delete(2);
 
 // Impressão dos dados:
 console.log(`ID: ${cliente1.id} | Nome completo: ${cliente1.nomeCompleto} | Data de Nascimento: ${cliente1.dataNascimento} | CPF: ${cliente1.cpf} | Endereço: ${cliente1.endereco}`);
