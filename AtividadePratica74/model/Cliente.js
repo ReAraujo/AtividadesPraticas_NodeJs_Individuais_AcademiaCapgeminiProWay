@@ -17,3 +17,5 @@ class Cliente {
         this.endereco = endereco;
     }
 }
+
+export default Cliente;
