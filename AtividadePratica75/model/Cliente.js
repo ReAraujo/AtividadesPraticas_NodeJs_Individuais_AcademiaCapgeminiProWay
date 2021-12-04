@@ -9,7 +9,7 @@ class Cliente {
     endereco;
 
     // Método construtor da Classe 
-    constructor(id = null, nomeCompleto, dataNascimento, cpf, endereco){
+    constructor(nomeCompleto, dataNascimento, cpf, endereco, id = null){
         this.id = id;
         this.nomeCompleto = nomeCompleto;
         this.dataNascimento = dataNascimento;

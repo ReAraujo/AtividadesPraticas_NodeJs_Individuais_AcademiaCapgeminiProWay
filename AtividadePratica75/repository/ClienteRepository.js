@@ -30,7 +30,7 @@ class ClienteRepository {
     // Método Delete (deletar)
     async delete(id){
         return await ClienteTable.destroy({ // ao deletar, não é preciso informar o objeto 
-            where:{id:parseInt(id)} // informando o número do ID do item a ser deletado
+            where:{id:parseInt(id)} // informando o número do ID do item a ser deletado convertendo ele para tipo numérico inteiro
         });
     }
 }
