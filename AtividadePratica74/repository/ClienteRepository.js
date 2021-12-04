@@ -10,7 +10,7 @@ import ClienteTable from "../db/ClienteTable.js";
 class ClienteRepository {
     
     // Método Create (criar novo):
-    async create(model){
+    async create(model){ // async = retorno assíncrono -> característica de não executar imediatamente pois os métodos esperam o retorno
         return await ClienteTable.create(model);
     }
 
