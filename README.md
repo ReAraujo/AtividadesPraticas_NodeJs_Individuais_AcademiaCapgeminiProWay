@@ -1,4 +1,4 @@
-# <h2>Atividades Práticas Individuais em NodeJs da Academia Capgemini & ProWay-
+# <h2>Atividades Práticas Individuais em NodeJs da Academia Capgemini & ProWay </h2>
 Repositório para armazenar as Atividades Práticas Individuais sobre NodeJs da Academia Java &amp; Angular da Capgemini &amp; ProWay.
 
 <h3>AtividadePratica69</h3>
