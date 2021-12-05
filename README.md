@@ -80,7 +80,7 @@ Link resolução Atividade: <a href="https://github.com/ReAraujo/AtividadesPrati
   <li>  Adicione no readme a descrição das atividades realizadas e suas respectivas pastas.</li>
 </ul>
 <br />
-Link slide Orientações da Atividade: <a href="hhttps://docs.google.com/presentation/d/1x6Q-V-5UdRq1TaUpEE71ESttMEnqdYD1Pacqk9G3MSU/edit#slide=id.gecd232fb99_0_0">ATIVIDADE PRÁTICA - 74<a/>
+Link slide Orientações da Atividade: <a href="https://docs.google.com/presentation/d/1x6Q-V-5UdRq1TaUpEE71ESttMEnqdYD1Pacqk9G3MSU/edit#slide=id.gecd232fb99_0_0">ATIVIDADE PRÁTICA - 74<a/>
 <br />   
 Link resolução Atividade: <a href="https://github.com/ReAraujo/AtividadesPraticas_NodeJs_Individuais_AcademiaCapgeminiProWay/tree/main/AtividadePratica74">AtividadePratica74<a/>
 <br />
